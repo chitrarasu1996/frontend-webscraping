@@ -18,10 +18,7 @@ const ProductsList = () => {
     const getAllproducts = async () => {
         const allProductsList = await getproducts();
        
-        setAllProdcuts(allProductsList.data)
-        console.log(allProducts)
-
-
+        setAllProdcuts(allProductsList.data)      
     }
 
     return (

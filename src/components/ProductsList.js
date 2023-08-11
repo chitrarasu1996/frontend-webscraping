@@ -11,9 +11,9 @@ const ProductsList = () => {
   
     useEffect(() => {
 
-        getAllproducts();
+        getAllproducts();u
 
-    })
+    },[])
 
     const getAllproducts = async () => {
         const allProductsList = await getproducts();

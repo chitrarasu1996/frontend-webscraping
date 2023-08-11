@@ -6,10 +6,6 @@ import {Link} from  "react-router-dom"
 
 const ProductsSearch=()=>{
  
-
-    const showProducts=()=>{
-
-    }
     return(
         <nav class="navbar bg-body-tertiary">
   <form class="container-fluid">

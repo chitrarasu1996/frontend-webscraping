@@ -8,7 +8,6 @@ const ProductsList = () => {
 
     const [allProducts, setAllProdcuts] = useState([])
 
-  
     useEffect(() => {
 
         getAllproducts()

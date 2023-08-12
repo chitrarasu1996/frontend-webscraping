@@ -20,7 +20,7 @@ const ProductsList = () => {
        
         setAllProdcuts(allProductsList.data)      
     }
-
+console.log(allProducts,"peoducts")
     return (
         <Container>
 

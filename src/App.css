@@ -1,12 +1,8 @@
-.App {
-  text-align: center;
-}
 
 .hole-contant{
   display: flex;
-  
 flex-direction: row;
-
+justify-content: center;
 float: left;
 gap: 20px;
 flex-wrap: wrap;
@@ -21,5 +17,35 @@ align-items: center;
   width: 100%;
 };
 
+.hole-form{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  justify-content: center;
+height: 100vh;
+}
 
+.register-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 
+.alreay-user{
+background-color: #B24957 !important;
+border-color: none !important;
+border:"none"
+}
+
+Input{
+  background-color: #F1F2F5 !important;
+}
+.form-container{
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1px solid white;
+  width: 30vw;
+  box-shadow:  0 0 10px #000000;
+}

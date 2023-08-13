@@ -11,7 +11,8 @@ const ProductsList = () => {
 
 const navigate=useNavigate()
     const [allProducts, setAllProdcuts] = useState([])
-const[userName,setUserName]=useState("")
+
+  const [userName,setUserName]=useState("")
     useEffect(() => {
        const data= localStorage.getItem("register-user")
        setUserName(data)

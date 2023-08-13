@@ -91,8 +91,7 @@ if(userDetails.password===userDetails.confirmPassword){
     </FormGroup>
     {' '}
     <FormGroup floating>
-      <Input
-      required
+      <Input required
         id="examplePassword1"
         name="password1"
         placeholder="Confirm Password"
